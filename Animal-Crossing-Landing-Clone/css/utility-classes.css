@@ -1,0 +1,19 @@
+.hover-transition {
+  transition: transform .2s ease;
+  -webkit-transition: transform .2s ease;
+  -moz-transition: transform .2s ease;
+  -ms-transition: transform .2s ease;
+  -o-transition: transform .2s ease;
+}
+
+.hover:hover {
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

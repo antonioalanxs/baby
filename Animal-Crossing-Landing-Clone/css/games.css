@@ -1,0 +1,14 @@
+.games {
+  position: relative;
+  bottom: 32px;
+
+  background-image: linear-gradient(-180deg, var(--clr-blue) 13%, #fff 100%);
+}
+
+.games__text--brown {
+  color: var(--clr-brown);
+}
+
+.games__text--turquoise {
+  color: var(--clr-turquoise);
+}

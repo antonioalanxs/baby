@@ -1,0 +1,21 @@
+.ribbon {
+  background-color: var(--clr-wrap);
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25px,
+    rgba(131, 21, 21, .5) 25px,
+    rgba(131, 21, 21, .5) 40px
+  );
+}
+
+/* It will make the container containing .birthday smaller so that .birthday appears to be on top.
+   It cannot be done by modifying the original height because it will also modify the height of 
+   .birthday since it contains it. */
+.ribbon::after {
+  content: "";
+
+  height: 64px;
+  display: block;
+  margin-top: -128px;
+}
