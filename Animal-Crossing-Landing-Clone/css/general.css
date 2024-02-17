@@ -1,0 +1,13 @@
+:root {
+  --ff-primary: "Arvo", serif;
+
+  --clr-wrap: rgb(219, 26, 26);
+  --clr-blue: #6ddcff;
+  --clr-brown: #834b16;
+  --clr-turquoise: #007F88;
+}
+
+body {
+  /* We have to add "!important" because Bootstrap has a default font applied with this statement as well. */
+  font-family: var(--ff-primary) !important;
+}
